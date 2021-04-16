@@ -1,0 +1,172 @@
+
+
+.container {
+	float: left;
+	width: 1500px;
+	
+	height: 800px;
+  }
+  #div1 {
+	float: left;
+	width: 250px;
+	height: 800px;
+background-image: url(./22541-78277.jpg)
+  }
+  #div2 {
+	float: left;
+	width: 850px;
+	height: 800px;
+	background-color:white;
+	background-image: url(./pexels-henry-&-co-2341290.jpg)
+
+
+
+  }
+  #div21{
+	  width: 423px;
+	  height: 266px; 
+    float: left;
+    
+    border: darkblue 2px;
+  }
+  #div22{
+	  width: 423px;
+	  height: 266px;
+    float: right;
+    border: darkblue 2px;
+  }
+  #div23{
+	  width: 850px;
+	  height: 267px;
+    border: darkblue 20px;
+  }
+  #div231{
+    float: left;
+    width: 425px;
+    height: 267px;
+  }
+  #div232{
+    float: right;
+    width: 425;
+    height: 267px;
+  }
+  #div24{
+	  width: 850px;
+	  height: 267px;
+    border: darkblue 20px;
+  }
+  #div241{
+    float: left;
+    width: 425px;
+    height: 267px;
+  }
+  #div242{
+    float: right;
+    width: 425;
+    height: 267px;
+  }
+  #div3 {
+	float: left;
+	width: 400px;
+	background-image: url(./22541-78277.jpg);
+height: 800px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+  body {
+	font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: white;
+  }
+  
+  .sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+  }
+  
+  .sidenav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+	color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+  }
+  #header{
+	  width: 1500px;
+	  background-color: maroon;
+	  height: 100px;
+	  
+	  
+  }
+  * {
+    margin : 0;
+    padding: 0;
+}
+
+body {
+    background:maroon;
+}
+
+.slider-box {
+    width     : 90%;
+    max-height: 90vh;
+    position  : relative;
+    overflow  : hidden;
+    margin    : 30px auto;
+}
+
+#slider {
+    width     : 100%;
+    display   : inline-flex;
+    transition: 0.7s;
+    height: 100%  ;
+}
+
+#slider img {
+    width: 100%;
+    height: 100%;
+}
+
+.indicators {
+    position : absolute;
+    left     : 50%;
+    bottom   : 20px;
+    transform: translateX(-50%);
+}
+
+.indicators span {
+    display      : inline-block;
+    width        : 15px;
+    height       : 15px;
+    border-radius: 50%;
+    background   : rgba(255, 255, 255, 0.5);
+    cursor       : pointer;
+}
+
+.active {
+    background: #ffff !important;
+}
